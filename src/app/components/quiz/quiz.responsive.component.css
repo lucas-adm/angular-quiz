@@ -1,0 +1,34 @@
+@media screen and (max-width:1500px) {
+
+    .questions,
+    .options>.btn-option {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:955px) {
+    .container-quiz {
+        width: 95vw;
+    }
+
+    .questions {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .options>.btn-option {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:435px) {
+
+    .logo {
+        width: 95vw;
+    }
+
+    .logo>a>img {
+        width: 100%;
+    }
+}

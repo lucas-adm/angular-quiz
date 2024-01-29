@@ -22,7 +22,11 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    //Adicionado para aceitar JSON
+    "resolveJsonModule": true,
+    //Entender aquivos não typescript, no caso JSON
+    "allowSyntheticDefaultImports": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
