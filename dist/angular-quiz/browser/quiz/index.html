@@ -1,13 +1,179 @@
-<!DOCTYPE html><html lang="en" data-critters-container><head>
+<!DOCTYPE html>
+<html lang="en" data-critters-container>
+
+<head>
   <meta charset="utf-8">
-  <title>AngularQuiz</title>
-  <base href="/">
+  <title>Quiz</title>
+  <base href="/angular-quiz/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<style>*{margin:0;padding:0;border:0;box-sizing:border-box;color:#000}body{background-color:#f4f4f4}
-</style><link rel="stylesheet" href="styles-DZFME7MM.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-DZFME7MM.css"></noscript><style ng-app-id="ng">.container-quiz[_ngcontent-ng-c353877763]{width:80vw;margin:20px auto auto}.container-quiz[_ngcontent-ng-c353877763] > *[_ngcontent-ng-c353877763]{margin-bottom:1rem}.logo[_ngcontent-ng-c353877763]{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.75rem 0}.logo[_ngcontent-ng-c353877763] > a[_ngcontent-ng-c353877763] > img[_ngcontent-ng-c353877763]{filter:drop-shadow(0 0 2.5px rgba(0,0,0,.777))}.questions[_ngcontent-ng-c353877763]{width:50%;margin:0 auto;height:200px;display:flex;align-items:center;justify-content:center;border-radius:8px;background-color:#d3d3d3;font-size:20px;font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}.options[_ngcontent-ng-c353877763]{display:flex;flex-direction:column;gap:.5rem 0;flex-wrap:wrap;justify-content:center;align-items:center;margin:auto}.options[_ngcontent-ng-c353877763] > .btn-option[_ngcontent-ng-c353877763]{width:50%;background:transparent;border-radius:8px;border:1px solid #6e6c6c;display:inline-block;cursor:pointer;color:#000;font-family:Arial,Helvetica,sans-serif;font-size:17px;padding:16px 31px;text-decoration:none;text-shadow:0 1px 0 #6e6c6c;text-align:left}.options[_ngcontent-ng-c353877763] > .btn-option[_ngcontent-ng-c353877763]:hover{filter:opacity(.75);box-shadow:0 0 5px #0005}.options[_ngcontent-ng-c353877763] > .btn-option[_ngcontent-ng-c353877763]:active{position:relative;top:1px}.results[_ngcontent-ng-c353877763]{display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%;height:350px;background-color:#d3d3d3;border-radius:10px;padding:30px}.results[_ngcontent-ng-c353877763] > p[_ngcontent-ng-c353877763]{font-size:18px;text-align:center}</style><style ng-app-id="ng">@media screen and (max-width:1500px){.questions[_ngcontent-ng-c353877763], .options[_ngcontent-ng-c353877763] > .btn-option[_ngcontent-ng-c353877763]{width:75%}}@media screen and (max-width:955px){.container-quiz[_ngcontent-ng-c353877763]{width:95vw}.questions[_ngcontent-ng-c353877763]{width:100%;padding:0 1rem;text-align:center}.options[_ngcontent-ng-c353877763] > .btn-option[_ngcontent-ng-c353877763]{width:100%}}@media screen and (max-width:435px){.logo[_ngcontent-ng-c353877763]{width:95vw}.logo[_ngcontent-ng-c353877763] > a[_ngcontent-ng-c353877763] > img[_ngcontent-ng-c353877763]{width:100%}}</style></head>
-<body><!--nghm-->
-  <app-root _nghost-ng-c3984273398 ng-version="17.1.1" ngh="2" ng-server-context="ssg"><router-outlet _ngcontent-ng-c3984273398></router-outlet><app-home _nghost-ng-c427598368 ngh="1"><div _ngcontent-ng-c427598368 class="container-home"><app-quiz _ngcontent-ng-c427598368 _nghost-ng-c353877763 ngh="0"><div _ngcontent-ng-c353877763 class="container-quiz"><div _ngcontent-ng-c353877763 class="logo"><a _ngcontent-ng-c353877763 href><img _ngcontent-ng-c353877763 src="assets/imgs/logo.png" alt></a><h3 _ngcontent-ng-c353877763>Você seria um heroi ou vilão ?</h3></div><div _ngcontent-ng-c353877763 class="questions"><h3 _ngcontent-ng-c353877763>Qual super poder você escolheria ?</h3></div><!----><div _ngcontent-ng-c353877763 class="options"><button _ngcontent-ng-c353877763 class="btn-option"> Raios-Lasers</button><button _ngcontent-ng-c353877763 class="btn-option"> Voar</button><button _ngcontent-ng-c353877763 class="btn-option"> Explodir coisas</button><button _ngcontent-ng-c353877763 class="btn-option"> Curar feridas</button><button _ngcontent-ng-c353877763 class="btn-option"> Soltar fogo pelas mãos</button><!----></div><!----><!----></div></app-quiz></div></app-home><!----></app-root>
-<script src="polyfills-RX4V3J3S.js" type="module"></script><script src="main-RDGOLM2W.js" type="module"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      box-sizing: border-box;
+      color: #000
+    }
 
-<script id="ng-state" type="application/json">{"__nghData__":[{"t":{"6":"t0","7":"t1","8":"t3"},"c":{"6":[{"i":"t0","r":1}],"7":[{"i":"t1","r":1,"t":{"1":"t2"},"c":{"1":[{"i":"t2","r":1,"x":5}]}}],"8":[]}},{},{"c":{"0":[{"i":"c427598368","r":1}]}}]}</script></body></html>
+    body {
+      background-color: #f4f4f4
+    }
+  </style>
+  <link rel="stylesheet" href="styles-DZFME7MM.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="styles-DZFME7MM.css">
+  </noscript>
+  <style ng-app-id="ng">
+    .container-quiz[_ngcontent-ng-c353877763] {
+      width: 80vw;
+      margin: 20px auto auto
+    }
+
+    .container-quiz[_ngcontent-ng-c353877763]>*[_ngcontent-ng-c353877763] {
+      margin-bottom: 1rem
+    }
+
+    .logo[_ngcontent-ng-c353877763] {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.75rem 0
+    }
+
+    .logo[_ngcontent-ng-c353877763]>a[_ngcontent-ng-c353877763]>img[_ngcontent-ng-c353877763] {
+      filter: drop-shadow(0 0 2.5px rgba(0, 0, 0, .777))
+    }
+
+    .questions[_ngcontent-ng-c353877763] {
+      width: 50%;
+      margin: 0 auto;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      background-color: #d3d3d3;
+      font-size: 20px;
+      font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    .options[_ngcontent-ng-c353877763] {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem 0;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: auto
+    }
+
+    .options[_ngcontent-ng-c353877763]>.btn-option[_ngcontent-ng-c353877763] {
+      width: 50%;
+      background: transparent;
+      border-radius: 8px;
+      border: 1px solid #6e6c6c;
+      display: inline-block;
+      cursor: pointer;
+      color: #000;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 17px;
+      padding: 16px 31px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #6e6c6c;
+      text-align: left
+    }
+
+    .options[_ngcontent-ng-c353877763]>.btn-option[_ngcontent-ng-c353877763]:hover {
+      filter: opacity(.75);
+      box-shadow: 0 0 5px #0005
+    }
+
+    .options[_ngcontent-ng-c353877763]>.btn-option[_ngcontent-ng-c353877763]:active {
+      position: relative;
+      top: 1px
+    }
+
+    .results[_ngcontent-ng-c353877763] {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 350px;
+      background-color: #d3d3d3;
+      border-radius: 10px;
+      padding: 30px
+    }
+
+    .results[_ngcontent-ng-c353877763]>p[_ngcontent-ng-c353877763] {
+      font-size: 18px;
+      text-align: center
+    }
+  </style>
+  <style ng-app-id="ng">
+    @media screen and (max-width:1500px) {
+
+      .questions[_ngcontent-ng-c353877763],
+      .options[_ngcontent-ng-c353877763]>.btn-option[_ngcontent-ng-c353877763] {
+        width: 75%
+      }
+    }
+
+    @media screen and (max-width:955px) {
+      .container-quiz[_ngcontent-ng-c353877763] {
+        width: 95vw
+      }
+
+      .questions[_ngcontent-ng-c353877763] {
+        width: 100%;
+        padding: 0 1rem;
+        text-align: center
+      }
+
+      .options[_ngcontent-ng-c353877763]>.btn-option[_ngcontent-ng-c353877763] {
+        width: 100%
+      }
+    }
+
+    @media screen and (max-width:435px) {
+      .logo[_ngcontent-ng-c353877763] {
+        width: 95vw
+      }
+
+      .logo[_ngcontent-ng-c353877763]>a[_ngcontent-ng-c353877763]>img[_ngcontent-ng-c353877763] {
+        width: 100%
+      }
+    }
+  </style>
+</head>
+
+<body><!--nghm-->
+  <app-root _nghost-ng-c3984273398 ng-version="17.1.1" ngh="2" ng-server-context="ssg"><router-outlet
+      _ngcontent-ng-c3984273398></router-outlet><app-home _nghost-ng-c427598368 ngh="1">
+      <div _ngcontent-ng-c427598368 class="container-home"><app-quiz _ngcontent-ng-c427598368 _nghost-ng-c353877763
+          ngh="0">
+          <div _ngcontent-ng-c353877763 class="container-quiz">
+            <div _ngcontent-ng-c353877763 class="logo"><a _ngcontent-ng-c353877763 href><img _ngcontent-ng-c353877763
+                  src="assets/imgs/logo.png" alt></a>
+              <h3 _ngcontent-ng-c353877763>Você seria um heroi ou vilão ?</h3>
+            </div>
+            <div _ngcontent-ng-c353877763 class="questions">
+              <h3 _ngcontent-ng-c353877763>Qual super poder você escolheria ?</h3>
+            </div><!---->
+            <div _ngcontent-ng-c353877763 class="options"><button _ngcontent-ng-c353877763 class="btn-option">
+                Raios-Lasers</button><button _ngcontent-ng-c353877763 class="btn-option"> Voar</button><button
+                _ngcontent-ng-c353877763 class="btn-option"> Explodir coisas</button><button _ngcontent-ng-c353877763
+                class="btn-option"> Curar feridas</button><button _ngcontent-ng-c353877763 class="btn-option"> Soltar
+                fogo pelas mãos</button><!----></div><!----><!---->
+          </div>
+        </app-quiz></div>
+    </app-home><!----></app-root>
+  <script src="polyfills-RX4V3J3S.js" type="module"></script>
+  <script src="main-RDGOLM2W.js" type="module"></script>
+
+  <script id="ng-state"
+    type="application/json">{"__nghData__":[{"t":{"6":"t0","7":"t1","8":"t3"},"c":{"6":[{"i":"t0","r":1}],"7":[{"i":"t1","r":1,"t":{"1":"t2"},"c":{"1":[{"i":"t2","r":1,"x":5}]}}],"8":[]}},{},{"c":{"0":[{"i":"c427598368","r":1}]}}]}</script>
+</body>
+
+</html>
