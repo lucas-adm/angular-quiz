@@ -1,27 +1,15 @@
-# AngularQuiz
+<h3 align="center">Angular Blog</h3>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+<div align="center">
 
-## Development server
+  <img width="75px" height="75px" src="https://github.com/lucas-adm/one-challenge-springboot-hotel/assets/118030896/d9ea1b67-961e-4ce5-a236-dc29c18b225c">
+  <img width="75px" height="75px" src="https://github.com/lucas-adm/dio-challenge-angular-blog/assets/118030896/4df929e7-7f3a-4785-8954-8a9583d866a4">
+  <img width="75px" height="75px" src="https://github.com/lucas-adm/dio-challenge-angular-blog/assets/118030896/9e6fa4c3-3aca-43b2-a336-018402b3182c">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  ###### JavaScript, Anuglar, TypeScript
+  
+</div>
 
-## Code scaffolding
+### ▶ Acesse o blog por <a href="https://dio-angular-quiz.onrender.com">*aqui*</a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](https://i.imgur.com/mNrIKHl.png)
