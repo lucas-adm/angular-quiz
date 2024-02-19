@@ -1,4 +1,4 @@
-<h3 align="center">Angular Blog</h3>
+<h3 align="center">Angular Quiz</h3>
 
 <div align="center">
 
