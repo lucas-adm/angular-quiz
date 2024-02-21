@@ -6,10 +6,10 @@
   <img width="75px" height="75px" src="https://github.com/lucas-adm/dio-challenge-angular-blog/assets/118030896/4df929e7-7f3a-4785-8954-8a9583d866a4">
   <img width="75px" height="75px" src="https://github.com/lucas-adm/dio-challenge-angular-blog/assets/118030896/9e6fa4c3-3aca-43b2-a336-018402b3182c">
 
-  ###### JavaScript, Anuglar, TypeScript
+  ###### JavaScript, Angular, TypeScript
   
 </div>
 
 ### ▶ Acesse o blog por <a href="https://dio-angular-quiz.onrender.com">*aqui*</a>
 
-![](https://i.imgur.com/mNrIKHl.png)
+![](https://i.imgur.com/0incmwT.png)
